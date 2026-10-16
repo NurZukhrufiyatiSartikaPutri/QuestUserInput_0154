@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun FormBiodataDiri(modifier: Modifier) {
     var textNama by remember { mutableStateOf(value = "") }
+    var textAlamat by remember { mutableStateOf(value = "") }
     var textJK by remember { mutableStateOf(value = "") }
     val gender: List<String> = listOf("Laki-laki", "Perempuan")
 
@@ -56,5 +57,13 @@ fun FormBiodataDiri(modifier: Modifier) {
                 }
             }
         }
+
+        OutlinedTextField(
+            value = textAlamat,
+            singleLine = true,
+            modifier = Modifier.width(250.dp),
+            label = { Text(text = "Alamat") },
+            onValueChange = { textAlamat = it }
+        )
     }
 }
