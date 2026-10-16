@@ -1,10 +1,24 @@
 # QuestUserInput_0154
 
-Android Jetpack Compose application for user input form (Biodata Diri), developed as part of Practical Assignment / Activity 4.
+## Identitas
+- Nama: Nur Zukhrufiyati Sartika Putri
+- NIM: 20240140154
+- Mata Kuliah: Pemrograman Aplikasi Mobile
+- Materi: User Input
 
-## Features
-- OutlinedTextField for Name and Address input
-- RadioButton selection for Gender (Laki-laki / Perempuan)
-- Form validation (Submit button enabled when address is provided)
-- ElevatedCard display component for showing submitted user biodata summary
-- Material 3 Design System styling
+## Deskripsi
+Aplikasi Android sederhana untuk memasukkan data biodata pengguna, meliputi nama lengkap, jenis kelamin, dan alamat. Data yang dimasukkan ditampilkan kembali setelah tombol Submit ditekan.
+
+## Teknologi
+- Kotlin
+- Android Studio
+- Jetpack Compose
+- Material 3
+
+## Hasil Running
+
+<img width="197" height="423" alt="Screenshot 2026-10-16 154128" src="https://github.com/user-attachments/assets/6a0a875f-25f3-4888-aa71-9006d28c79da" />
+
+
+## Repository
+QuestUserInput_0154
