@@ -28,6 +28,10 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 
+/**
+ * FormBiodataDiri Composable for user input quest (QuestUserInput_0154).
+ * Allows users to input name, gender, and address, and displays summary in an elevated card.
+ */
 @Composable
 fun FormBiodataDiri(modifier: Modifier) {
     //variabel-variabel untuk menyimpan nilai masukan dari keyboard
