@@ -1,4 +1,3 @@
-
 package com.example.activity4
 
 import android.os.Bundle
@@ -11,6 +10,9 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.example.activity4.ui.theme.Activity4Theme
 
+/**
+ * MainActivity hosting the FormBiodataDiri UI with edge-to-edge support.
+ */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
